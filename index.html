@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniSocial - CodeAlpha Task 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar">
+        <h1>MiniSocial</h1>
+        <div class="nav-icons">
+            <i class="fas fa-home"></i>
+            <i class="fas fa-plus-square"></i>
+<img src="https://i.pravatar.cc/40?img=49" class="nav-profile" alt="profile">
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile-card">
+            <img src="https://i.pravatar.cc/150?img=49" class="profile-pic" alt="Madhu">
+            <div class="profile-info">
+                <h2>Madhu Kista</h2>
+                <p class="bio">Frontend Developer | CodeAlpha Intern 💻</p>
+                <div class="stats">
+                    <div><strong>12</strong> Posts</div>
+                    <div><strong>1.2k</strong> Followers</div>
+                    <div><strong>500</strong> Following</div>
+                </div>
+                <button class="follow-btn" id="followBtn">Follow</button>
+            </div>
+        </div>
+
+        <!-- Create Post -->
+        <div class="create-post">
+<img src="https://i.pravatar.cc/40?img=49" class="post-profile" alt="profile">
+            <button id="postBtn">Post</button>
+        </div>
+
+        <!-- Posts Feed -->
+        <div id="postsContainer">
+            <!-- Post 1 -->
+            <div class="post">
+                <div class="post-header">
+                    <img src="https://i.pravatar.cc/40?img=49" alt="user">
+                    <h3>Madhu Kista</h3>
+                </div>
+                <p class="post-text">Just completed Task 1 for CodeAlpha! E-commerce site done ✅ On to Task 2 now 🚀</p>
+                <div class="post-actions">
+                    <i class="far fa-heart like-btn"></i> <span class="like-count">24</span>
+                    <i class="far fa-comment"></i> <span>5</span>
+                </div>
+                <div class="comments">
+                    <div class="comment"><strong>CodeAlpha:</strong> Great work Madhu!</div>
+                </div>
+                <div class="add-comment">
+                    <input type="text" placeholder="Add a comment...">
+                    <button>Post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
